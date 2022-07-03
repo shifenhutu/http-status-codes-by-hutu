@@ -9,6 +9,8 @@ And RFC 4918 - https://tools.ietf.org/html/rfc4918
 
 # install
 
+https://www.npmjs.com/package/http-status-codes-by-hutu
+
 `npm i http-status-codes-by-hutu`
 
 `pnpm i http-status-codes-by-hutu`

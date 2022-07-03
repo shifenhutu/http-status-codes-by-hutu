@@ -1,6 +1,6 @@
 {
   "name": "http-status-codes-by-hutu",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": " HTTP status codes.",
   "main": "./build/cjs/index.js",
   "module": "./build/es/index.js",
