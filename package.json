@@ -1,0 +1,24 @@
+{
+  "name": "http-status-codes",
+  "version": "0.0.1",
+  "description": " HTTP status codes.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hu-tu-yi-shi/http-status.git"
+  },
+  "keywords": [
+    "HttpStatus",
+    "httpCode"
+  ],
+  "author": "hu-tu-yi-shi",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^18.0.0",
+    "ts-node": "^10.8.2",
+    "typescript": "^4.7.4"
+  }
+}
