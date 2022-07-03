@@ -24,6 +24,12 @@ console.log(is_success(200)) // true
 
 ```
 
+#todo
+```tsx
+status[200]  // like array ,obj attr
+ 
+```
+
 
 # thanks to:
 

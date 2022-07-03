@@ -4,7 +4,10 @@
   "description": " HTTP status codes.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "format":"prettier --write \"src/**/*.{js,jsx,ts,tsx,json,css,scss,less,md}\"",
+    "lint": "tslint -p tsconfig.json",
+    "test": "jest --config jestconfig.json",
+    "build": "tsc"
   },
   "repository": {
     "type": "git",
@@ -14,11 +17,20 @@
     "HttpStatus",
     "httpCode"
   ],
+  "files": [
+    "lib/**/*"
+  ],
   "author": "hu-tu-yi-shi",
   "license": "MIT",
   "devDependencies": {
+    "@types/jest": "^28.1.4",
     "@types/node": "^18.0.0",
+    "jest": "^28.1.2",
+    "prettier": "^2.7.1",
+    "ts-jest": "^28.0.5",
     "ts-node": "^10.8.2",
+    "tslint": "^6.1.3",
+    "tslint-config-prettier": "^1.18.0",
     "typescript": "^4.7.4"
   }
 }
